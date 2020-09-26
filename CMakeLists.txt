@@ -56,6 +56,7 @@ set(CED_LIBRARY_SOURCES
     )
 
 add_library(ced STATIC ${CED_LIBRARY_SOURCES})
+target_include_directories(ced PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
 target_include_directories(ced PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 
