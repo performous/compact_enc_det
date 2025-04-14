@@ -2,8 +2,8 @@
 # Use of this source code is governed by a BSD-style
 # license that can be found in the LICENSE file.
 
-# Old enough to support Ubuntu Precise.
-cmake_minimum_required(VERSION 2.8.7)
+# Newer so that MacOSX build doesn't break.
+cmake_minimum_required(VERSION 3.15)
 set(PROJECT_VERSION 1.0)
 
 if (WIN32)
